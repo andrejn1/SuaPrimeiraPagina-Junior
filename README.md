@@ -19,5 +19,3 @@ python manage.py runserver
 - `/criar_categoria/` — cadastrar categoria
 - `/criar_post/` — criar post
 - `/buscar/` — buscar post por título
-
-Pronto! Projeto básico completo com padrão MVT.
