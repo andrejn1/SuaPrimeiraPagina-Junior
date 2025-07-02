@@ -1,6 +1,5 @@
 # SuaPrimeiraPagina+Junior
 
-Projeto Django com herança de templates e 3 models: Autor, Categoria e Post.
 
 ## Como rodar:
 
