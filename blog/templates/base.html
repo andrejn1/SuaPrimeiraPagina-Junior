@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Blog{% endblock %}</title>
+</head>
+<body>
+    <h1>Meu Blog Django</h1>
+    <nav>
+        <a href="{% url 'criar_post' %}">Criar Post</a> |
+        <a href="{% url 'criar_autor' %}">Criar Autor</a> |
+        <a href="{% url 'criar_categoria' %}">Criar Categoria</a> |
+        <a href="{% url 'buscar_post' %}">Buscar Post</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
