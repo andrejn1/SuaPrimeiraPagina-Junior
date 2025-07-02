@@ -7,7 +7,7 @@
 git clone https://github.com/andrejn1/SuaPrimeiraPagina-Junior.git
 cd SuaPrimeiraPagina-Junior
 python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate no Windows
+venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
